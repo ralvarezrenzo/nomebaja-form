@@ -26,7 +26,20 @@ body {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
-
+/* SLIDER caption margenes top y bottom para centrado */
+.carousel-item .carousel-caption{
+    display: flex !important;
+    flex-direction: column;
+    bottom: 0 ! important;
+    top: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 450px;
+    top: 0 !important;
+    left : 0 !important;
+    right : 0 !important;
+    margin : auto;
+}
 /* BARRA INFERIOR */
 .barra {
     width: 100%;
