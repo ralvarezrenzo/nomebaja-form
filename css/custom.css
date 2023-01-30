@@ -39,6 +39,15 @@ body {
     left : 0 !important;
     right : 0 !important;
     margin : auto;
+    width: 70% !important;
+}
+/* BOTON CONTACTANOS */
+.btn-contactanos{
+    background: var(--bs-nomebaja-magenta);
+    color: var(--bs-white);
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 12px;
 }
 /* BARRA INFERIOR */
 .barra {
@@ -349,10 +358,6 @@ img {
 .slider-item img {
     height: 100%;
     object-fit: cover;
-}
-
-.carousel-caption {
-    bottom: 35% !important;
 }
 
 .slider-principal__botones {
