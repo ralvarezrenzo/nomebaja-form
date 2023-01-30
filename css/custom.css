@@ -35,19 +35,32 @@ body {
     justify-content: center !important;
     align-items: center !important;
     max-width: 450px;
-    top: 0 !important;
+    top: -15px !important;
     left : 0 !important;
     right : 0 !important;
     margin : auto;
-    width: 70% !important;
+    width: 65% !important;
+}
+@media screen and (min-width: 768px) {
+    .carousel-p{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .carousel-p{
+        font-size: 1.2rem;
+    }
 }
 /* BOTON CONTACTANOS */
 .btn-contactanos{
     background: var(--bs-nomebaja-magenta);
     color: var(--bs-white);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: .5rem;
     border-radius: 12px;
+}
+.btn-contactanos:hover{
+    color: var(--bs-white);
 }
 /* BARRA INFERIOR */
 .barra {
@@ -397,7 +410,7 @@ img {
 
 /* SLIDER INDICADORES */
 .active {
-    background-color: var(--bs-nomebaja-magenta) !important;
+    /* background-color: var(--bs-nomebaja-magenta) !important; */
 }
 
 /* TABS NAV */
