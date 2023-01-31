@@ -164,7 +164,7 @@ img {
 
 .logo {
     margin-left: 1rem;
-    width: 180px;
+    width: 75px;
 }
 
 .hamburger-box {
@@ -343,7 +343,7 @@ img {
 .slider-principal {
     position: relative;
     min-height: 300px;
-    height: 65vh !important;
+    height: 75vh !important;
     max-height: 450px !important;
 }
 
@@ -370,7 +370,8 @@ img {
 
 .slider-item img {
     height: 100%;
-    object-fit: cover;
+    /* width: 100%; */
+    object-fit: bottom center;
 }
 
 .slider-principal__botones {
@@ -410,7 +411,7 @@ img {
 
 /* SLIDER INDICADORES */
 .active {
-    /* background-color: var(--bs-nomebaja-magenta) !important; */
+    background-color: var(--bs-nomebaja-magenta) !important;
 }
 
 /* TABS NAV */
@@ -593,7 +594,7 @@ img {
 
     /* SLIDER PRINCIPAL */
     .slider-principal {
-        height: 75vh !important;
+        /* height: 100vh !important; */
         /* max-height: 600px !important;   */
     }
     /* LUGARES DE VENTAS */
