@@ -375,17 +375,18 @@ img {
     /* width: 100%; */
     object-fit: bottom center;
 }
-
-.slider-principal__botones {
-    height: 40px;
+.slider-principal__indicadores{
     width: 40px !important;
+}
+.slider-principal__botones {
+    height: 36px;
+    width: 36px !important;
     top: 46% !important;
     border-radius: 50%;
     background-color: var(--bs-nomebaja-magenta) !important;
     opacity: .6 !important;
     transition-duration: .5s !important;
 }
-
 .slider-principal__botones:hover {
     opacity: 1 !important;
 }
