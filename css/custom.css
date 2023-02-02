@@ -34,7 +34,7 @@ body {
     top: 0 !important;
     justify-content: center !important;
     align-items: center !important;
-    max-width: 450px;
+    max-width: 600px;
     top: -15px !important;
     left : 0 !important;
     right : 0 !important;
@@ -58,6 +58,7 @@ body {
     font-size: 1.2rem;
     padding: .5rem;
     border-radius: 12px;
+    font-weight: bold;
 }
 .btn-contactanos:hover{
     color: var(--bs-white);
@@ -343,15 +344,15 @@ img {
 .slider-principal {
     position: relative;
     min-height: 300px;
-    height: 75vh !important;
-    max-height: 450px !important;
-    border-radius: 45px;
+    height: 90vh !important;
+    max-height: 495px !important;
+    border-radius: 55px;
 }
 
 .slider-principal__inner {
     height: 100% !important;
     position: relative;
-    border-radius: 0 0 32px 32px;
+    border-radius: 0 0 35px 35px;
 }
 
 .slider-principal__inner .slider-item::before {
@@ -373,7 +374,7 @@ img {
 .slider-item img {
     height: 100%;
     /* width: 100%; */
-    object-fit: bottom center;
+    object-fit: center;
 }
 .slider-principal__indicadores{
     width: 40px !important;
@@ -389,6 +390,12 @@ img {
 }
 .slider-principal__botones:hover {
     opacity: 1 !important;
+}
+.carousel-item .banner-mobile{
+    display: initial!important;
+}
+.carousel-item .banner-desktop{
+    display: none !important;
 }
 /* WHATSAPP ENLACE SLIDER */
 .whatsapp-enlace-slider{
@@ -468,8 +475,21 @@ img {
         display: none;
     }
     /* SLIDER */
+    .slider-principal {
+        position: relative;
+        min-height: 300px;
+        height: 75vh !important;
+        max-height: 375px !important;
+        border-radius: 55px;
+    }
     .whatsapp-enlace-slider{
         display: initial;
+    }
+    .carousel-item .banner-mobile{
+        display: none !important;
+    }
+    .carousel-item .banner-desktop{
+        display: initial !important;
     }
     /* NAVBAR-MENU PRINCIPAL  */
     .nav-principal {
@@ -541,7 +561,14 @@ img {
     .hamburger-box {
         display: none !important;
     }
-
+     /* SLIDER */
+     .slider-principal {
+        position: relative;
+        min-height: 300px;
+        height: 75vh !important;
+        max-height: 500px !important;
+        border-radius: 55px;
+    }
     /* NAVBAR-MENU PRINCIPAL  */
     .nav-principal {
         transform: translateX(0);
@@ -602,9 +629,17 @@ img {
     }
 
     /* SLIDER PRINCIPAL */
-    .slider-principal {
-        /* height: 100vh !important; */
-        /* max-height: 600px !important;   */
+    .carousel-caption .titulo-slider{
+        font-size: 3.4rem !important;
+    }
+    .btn-equipo{
+        font-size: 1.2rem;
+    }
+    .carousel-item .banner-mobile{
+        display: none !important;
+    }
+    .carousel-item .banner-desktop{
+        display: initial !important;
     }
     /* LUGARES DE VENTAS */
     /* ARTICULOS VENTAS */
