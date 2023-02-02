@@ -479,8 +479,12 @@ img {
         position: relative;
         min-height: 300px;
         height: 75vh !important;
-        max-height: 375px !important;
+        max-height: 400px !important;
         border-radius: 55px;
+    }
+    .carousel-caption .btn-equipo{
+        font-size: 1.2rem;
+        margin-bottom: 1rem !important;
     }
     .whatsapp-enlace-slider{
         display: initial;
@@ -565,8 +569,8 @@ img {
      .slider-principal {
         position: relative;
         min-height: 300px;
-        height: 75vh !important;
-        max-height: 500px !important;
+        height: 90vh !important;
+        max-height: 475px !important;
         border-radius: 55px;
     }
     /* NAVBAR-MENU PRINCIPAL  */
@@ -634,6 +638,7 @@ img {
     }
     .btn-equipo{
         font-size: 1.2rem;
+        /* margin: 10rem !important; */
     }
     .carousel-item .banner-mobile{
         display: none !important;
