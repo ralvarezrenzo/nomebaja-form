@@ -22,6 +22,44 @@ body {
     /* background: red !important; */
 }
 /* Animaciones */
+/* NUM WHATSAPP SLIDER */
+.num-whatsapp{
+    animation: numWhatsapp 3s infinite;
+}
+@keyframes numWhatsapp {
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+        transform: rotate(9deg);
+    }
+    20%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(7deg);
+    }
+    40%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    70%{
+        transform: rotate(3deg);
+    }
+    80%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+
+}
 .btn-equipo{
         animation: signalEquipo 1.5s infinite;
     }
@@ -121,9 +159,20 @@ body {
 }
 
 .boton-whatsapp__enlace {
-    font-size: .8rem;
+    font-size: .8rem;  
+    animation: whatsappBarra 3s infinite;
 }
-
+@keyframes whatsappBarra {
+    0%{
+        transform: scale(1);
+    }
+    35%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .boton-preguntas__enlace,
 .boton-zonas__enlace {
     font-size: .6rem;
