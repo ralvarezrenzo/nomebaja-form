@@ -21,7 +21,32 @@ body {
     padding-right: 12px !important;
     /* background: red !important; */
 }
-
+/* Animaciones */
+.btn-equipo{
+        animation: signalEquipo 1.5s infinite;
+    }
+    @keyframes signalEquipo {
+        0%{
+            box-shadow: 0 0 0 0 var(--bs-nomebaja-magenta);
+        }
+        100%{
+            box-shadow: 0 0 0 11px rgba(0,  0, 0, 0);
+        }
+    }
+@media screen and (min-width:768px) {
+    /* Animaciones */
+.btn-equipo{
+    animation: signalEquipo 1.5s infinite;
+}
+@keyframes signalEquipo {
+    0%{
+        box-shadow: 0 0 0 0 var(--bs-nomebaja-magenta);
+    }
+    100%{
+        box-shadow: 0 0 0 12px rgba(0,  0, 0, 0);
+    }
+}
+}
 .container-px-0 {
     padding-left: 0 !important;
     padding-right: 0 !important;
