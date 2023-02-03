@@ -145,12 +145,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 12px;
+    gap: 28px;
     height: 100%;
 }
 
 .boton__barra {
-    min-width: 100px;
+    min-width: fit-content;
     position: relative;
     top: -10px;
     display: flex;
@@ -159,8 +159,8 @@ body {
 }
 
 .boton-whatsapp__enlace {
-    font-size: .8rem;  
-    animation: whatsappBarra 3s infinite;
+    font-size: .8rem; 
+    position: relative; 
 }
 @keyframes whatsappBarra {
     0%{
@@ -188,6 +188,10 @@ body {
 
 .boton-whatsapp__img {
     width: 67px;
+    position: absolute;
+    animation: whatsappBarra 3s infinite;
+    bottom: 149%;
+    left: 11%;
 }
 
 .boton-preguntas__img,
