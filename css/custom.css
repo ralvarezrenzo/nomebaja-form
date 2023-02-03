@@ -407,6 +407,9 @@ img {
 .slider-item {
     height: 100%;
 }
+.carousel-caption .titulo-slider{
+    font-size: 2.3rem !important;
+}
 
 .slider-item img {
     height: 100%;
