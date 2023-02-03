@@ -266,8 +266,20 @@ img {
     bottom: 32px;
     display: none;
     z-index: 998;
+    animation: signalFlotante 1.5s infinite;
+    border-radius: 50%;
 }
-
+@keyframes signalFlotante {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 .enlace-whatsapp__flotante .boton-whatsapp__img {
     transition-duration: .5s;
 }
@@ -637,8 +649,17 @@ img {
         font-size: 3.4rem !important;
     }
     .btn-equipo{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         /* margin: 10rem !important; */
+        animation: signalEquipo 1.5s infinite;
+    }
+    @keyframes signalEquipo {
+        0%{
+            box-shadow: 0 0 0 0 var(--bs-nomebaja-magenta);
+        }
+        100%{
+            box-shadow: 0 0 0 15px rgba(0,  0, 0, 0);
+        }
     }
     .carousel-item .banner-mobile{
         display: none !important;
