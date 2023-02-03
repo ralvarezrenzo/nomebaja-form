@@ -159,8 +159,13 @@ body {
 }
 
 .boton-whatsapp__enlace {
+    position: relative;
     font-size: .8rem;  
     animation: whatsappBarra 3s infinite;
+}
+.boton-whatsapp__img{
+    /* position: absolute; */
+    /* bottom: 110%; */
 }
 @keyframes whatsappBarra {
     0%{
