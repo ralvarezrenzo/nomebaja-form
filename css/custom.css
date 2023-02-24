@@ -163,10 +163,6 @@ body {
     font-size: .8rem;  
     animation: whatsappBarra 3s infinite;
 }
-.boton-whatsapp__img{
-    /* position: absolute; */
-    /* bottom: 110%; */
-}
 @keyframes whatsappBarra {
     0%{
         transform: scale(1);
@@ -370,21 +366,9 @@ img {
 
 /* HEADING BANNER ALL */
 .heading-banner {
-    background-size: cover;
-    background-position: bottom right;
     position: relative;
     border-radius: 0 0 32px 32px;
     background-attachment: fixed;
-}
-@media screen and (min-width:768px){
-    .heading-banner {
-        background-position: 50% -50px;
-    }
-}
-@media screen and (min-width:992px){
-    .heading-banner {
-        background-position: center initial;
-    }
 }
 
 .heading-banner::before {
@@ -405,9 +389,6 @@ img {
 }
 
 /* NOSOTROS */
-.heading-banner__nosotros {
-    background-image: url(../imagenes/sobre-nosotros.jpg);
-}
 
 /* NOSOTROS */
 /* ASESORIA-NOSOTROS */
@@ -520,7 +501,40 @@ img {
 .active {
     background-color: var(--bs-nomebaja-magenta) !important;
 }
+.barra-slider--enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+    flex-wrap: wrap !important;
+    margin-bottom: 1rem;
+    flex-direction: row;
+}
 
+.barra-p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    width: fit-content;
+    padding: .2rem .5rem;
+}
+.barra-slider--enlaces a {
+    display: flex;
+    color: white;
+    background: var(--bs-nomebaja-magenta);
+    padding: .2rem .5rem;
+    border-radius: 12px;
+}
+.barra-slider--enlaces a:hover{
+    color: white;
+}
+.barra-slider--enlace{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    width: 100%;
+}
 /* TABS NAV */
 .nav-tabs>.active {
     color: white !important;
@@ -564,6 +578,13 @@ img {
 
 @media screen and (min-width:768px) {
 
+    .barra-p{
+        display: initial;
+    }
+    .barra-slider--enlace{
+        width: 70%;
+        justify-content: flex-start;
+    }
     /* BARRA INFERIOR */
     .barra {
         display: none;
